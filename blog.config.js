@@ -63,8 +63,8 @@ const BLOG = {
   CODE_MAC_BAR: true, // 代码左上角显示mac的红黄绿图标
   CODE_LINE_NUMBERS: process.env.NEXT_PUBLIC_CODE_LINE_NUMBERS || 'false', // 是否显示行号
 
-  BACKGROUND_LIGHT: '#eeeeee', // use hex value, don't forget '#' e.g #fffefc
-  BACKGROUND_DARK: '#000000', // use hex value, don't forget '#'
+  BACKGROUND_LIGHT: '#f5f5f5', // use hex value, don't forget '#' e.g #fffefc
+  BACKGROUND_DARK: '#2f343f', // use hex value, don't forget '#'
   SUB_PATH: '', // leave this empty unless you want to deploy in a folder
 
   POST_URL_PREFIX: process.env.NEXT_PUBLIC_POST_URL_PREFIX || 'article',
